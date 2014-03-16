@@ -1,0 +1,16 @@
+<block>
+  <name>Readiq c</name>
+  <key>emulate_hardware_readIQ_c</key>
+  <category>EMULATE_HARDWARE</category>
+  <import>import emulate_hardware</import>
+  <make>emulate_hardware.readIQ_c($filepath)</make>
+  <param>
+    <name>Filepath</name>
+    <key>filepath</key>
+    <type>string</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<block>
+  <name>FMCW_generate_IQ_cc</name>
+  <key>radar_FMCW_generate_IQ_cc</key>
+  <category>radar</category>
+  <import>import radar</import>
+  <make>radar.FMCW_generate_IQ_cc($samp_block)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>samp_block</name>
+    <key>samp_block</key>
+    <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>CW</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>up</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>down</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

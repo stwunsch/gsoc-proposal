@@ -1,0 +1,20 @@
+<block>
+  <name>Median ff</name>
+  <key>classify_median_ff</key>
+  <category>CLASSIFY</category>
+  <import>import classify</import>
+  <make>classify.median_ff($samp_range)</make>
+  <param>
+    <name>Samp_range</name>
+    <key>samp_range</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

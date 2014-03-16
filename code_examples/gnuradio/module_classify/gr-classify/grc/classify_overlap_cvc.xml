@@ -1,0 +1,26 @@
+<block>
+  <name>Overlap cvc</name>
+  <key>classify_overlap_cvc</key>
+  <category>CLASSIFY</category>
+  <import>import classify</import>
+  <make>classify.overlap_cvc($samp_block, $samp_gap)</make>
+  <param>
+    <name>Samp_block</name>
+    <key>samp_block</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Samp_gap</name>
+    <key>samp_gap</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>$samp_block</vlen>
+  </source>
+</block>

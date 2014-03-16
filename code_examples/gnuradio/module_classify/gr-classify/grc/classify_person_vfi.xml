@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<block>
+  <name>person_vfi</name>
+  <key>classify_person_vfi</key>
+  <category>CLASSIFY</category>
+  <import>import classify</import>
+  <make>classify.person_vfi($samp_block, $samp_gap, $samp_gap_fft, $samp_rate_fft, $step_freq_max, $lsquare_max)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>samp_block</name>
+    <key>samp_block</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>samp_gap(unused)</name>
+    <key>samp_gap</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>samp_rate_fft</name>
+    <key>samp_rate_fft</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>samp_gap_fft</name>
+    <key>samp_gap_fft</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>step_freq_max</name>
+    <key>step_freq_max</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>lsquare_max</name>
+    <key>lsquare_max</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <vlen>$samp_block</vlen>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+</block>

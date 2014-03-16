@@ -1,0 +1,26 @@
+<block>
+  <name>Overlap fvf</name>
+  <key>classify_overlap_fvf</key>
+  <category>CLASSIFY</category>
+  <import>import classify</import>
+  <make>classify.overlap_fvf($samp_block, $samp_gap)</make>
+  <param>
+    <name>Samp_block</name>
+    <key>samp_block</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Samp_gap</name>
+    <key>samp_gap</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+    <vlen>$samp_block</vlen>
+  </source>
+</block>

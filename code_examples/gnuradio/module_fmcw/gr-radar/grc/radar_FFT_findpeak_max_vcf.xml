@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<block>
+  <name>FFT_findpeak_max_vcf</name>
+  <key>radar_FFT_findpeak_max_vcf</key>
+  <category>radar</category>
+  <import>import radar</import>
+  <make>radar.FFT_findpeak_max_vcf($samp_block, $samp_rate, $freq_min, $freq_max)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>samp_block</name>
+    <key>samp_block</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>samp_rate</name>
+    <key>samp_rate</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>freq_min</name>
+    <key>freq_min</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>freq_max</name>
+    <key>freq_max</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>$samp_block</vlen>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
