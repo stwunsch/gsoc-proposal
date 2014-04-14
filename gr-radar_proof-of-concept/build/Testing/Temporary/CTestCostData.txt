@@ -1,0 +1,3 @@
+qa_signal_generator_cw_c 1 1.00018
+qa_simulator_cc 1 1.16341
+---

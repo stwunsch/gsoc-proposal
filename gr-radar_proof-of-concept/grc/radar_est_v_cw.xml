@@ -1,0 +1,21 @@
+<block>
+  <name>Est v cw</name>
+  <key>radar_est_v_cw</key>
+  <category>RADAR</category>
+  <import>import radar</import>
+  <make>radar.est_v_cw($center_freq)</make>
+  <param>
+    <name>Center_freq</name>
+    <key>center_freq</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>cw_in</name>
+    <type>message</type>
+  </sink>
+  <source>
+	<name>cw_out</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

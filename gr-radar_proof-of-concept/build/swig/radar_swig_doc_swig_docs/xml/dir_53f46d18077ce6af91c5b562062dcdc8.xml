@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_53f46d18077ce6af91c5b562062dcdc8" kind="dir">
+    <compoundname>/home/stefan/git/radsens/gr-radar/include/radar</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="decimator__cc_8h">decimator_cc.h</innerfile>
+    <innerfile refid="est__v__cw_8h">est_v_cw.h</innerfile>
+    <innerfile refid="os__cfar__c_8h">os_cfar_c.h</innerfile>
+    <innerfile refid="signal__generator__cw__c_8h">signal_generator_cw_c.h</innerfile>
+    <innerfile refid="simulator__cc_8h">simulator_cc.h</innerfile>
+    <innerfile refid="tsfft__cc_8h">tsfft_cc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/stefan/git/radsens/gr-radar/include/radar/"/>
+  </compounddef>
+</doxygen>

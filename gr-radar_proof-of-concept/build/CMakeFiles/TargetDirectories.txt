@@ -1,0 +1,9 @@
+/home/stefan/git/radsens/gr-radar/build/swig/CMakeFiles/_radar_swig.dir
+/home/stefan/git/radsens/gr-radar/build/swig/CMakeFiles/_radar_swig_doc_tag.dir
+/home/stefan/git/radsens/gr-radar/build/swig/CMakeFiles/_radar_swig_swig_tag.dir
+/home/stefan/git/radsens/gr-radar/build/lib/CMakeFiles/gnuradio-radar.dir
+/home/stefan/git/radsens/gr-radar/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/stefan/git/radsens/gr-radar/build/python/CMakeFiles/pygen_python_d3227.dir
+/home/stefan/git/radsens/gr-radar/build/swig/CMakeFiles/pygen_swig_83b88.dir
+/home/stefan/git/radsens/gr-radar/build/lib/CMakeFiles/test-radar.dir
+/home/stefan/git/radsens/gr-radar/build/CMakeFiles/uninstall.dir

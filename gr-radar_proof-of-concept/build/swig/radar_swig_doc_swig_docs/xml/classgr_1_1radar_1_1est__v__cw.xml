@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classgr_1_1radar_1_1est__v__cw" kind="class" prot="public">
+    <compoundname>gr::radar::est_v_cw</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="est__v__cw_8h" local="no">est_v_cw.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1est__v__cw_1a4ab3de50a5df3bc851c5f23fcf0da73f" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1est__v__cw" kindref="compound">est_v_cw</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;est_v_cw&gt; gr::radar::est_v_cw::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/stefan/git/radsens/gr-radar/include/radar/est_v_cw.h" line="39" column="1" bodyfile="/home/stefan/git/radsens/gr-radar/include/radar/est_v_cw.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1est__v__cw_1a6248f7a2e44b5a269634e682a244b9f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1est__v__cw_1a4ab3de50a5df3bc851c5f23fcf0da73f" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::est_v_cw::make</definition>
+        <argsstring>(float center_freq)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1est__v__cw" kindref="compound">radar::est_v_cw</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1est__v__cw" kindref="compound">radar::est_v_cw</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1est__v__cw_1a6248f7a2e44b5a269634e682a244b9f6" kindref="member">radar::est_v_cw::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/stefan/git/radsens/gr-radar/include/radar/est_v_cw.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>gr::radar::est_v_cw</label>
+        <link refid="classgr_1_1radar_1_1est__v__cw"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>gr::radar::est_v_cw</label>
+        <link refid="classgr_1_1radar_1_1est__v__cw"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/stefan/git/radsens/gr-radar/include/radar/est_v_cw.h" line="37" column="1" bodyfile="/home/stefan/git/radsens/gr-radar/include/radar/est_v_cw.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1est__v__cw_1a6248f7a2e44b5a269634e682a244b9f6" prot="public" virt="non-virtual"><scope>gr::radar::est_v_cw</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1est__v__cw_1a4ab3de50a5df3bc851c5f23fcf0da73f" prot="public" virt="non-virtual"><scope>gr::radar::est_v_cw</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="classgr_1_1radar_1_1decimator__cc" kind="class"><name>gr::radar::decimator_cc</name>
+    <member refid="classgr_1_1radar_1_1decimator__cc_1a6f5abc5c3fd7933cb5d813b8ac610c14" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1decimator__cc_1a9095c99ab1597b22cd7704c46ed8daf9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1radar_1_1est__v__cw" kind="class"><name>gr::radar::est_v_cw</name>
+    <member refid="classgr_1_1radar_1_1est__v__cw_1a4ab3de50a5df3bc851c5f23fcf0da73f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1est__v__cw_1a6248f7a2e44b5a269634e682a244b9f6" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1radar_1_1os__cfar__c" kind="class"><name>gr::radar::os_cfar_c</name>
+    <member refid="classgr_1_1radar_1_1os__cfar__c_1a97b7a4703ccd900a4759e48c53be47ed" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1os__cfar__c_1a234b236b27c1a6b0bb02c0c463b98ecf" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1radar_1_1signal__generator__cw__c" kind="class"><name>gr::radar::signal_generator_cw_c</name>
+    <member refid="classgr_1_1radar_1_1signal__generator__cw__c_1a7498c1cdd9b10a5db75172710f12dc1b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1signal__generator__cw__c_1a4a31e1f49b356c57ae193d441b3abf2f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1radar_1_1simulator__cc" kind="class"><name>gr::radar::simulator_cc</name>
+    <member refid="classgr_1_1radar_1_1simulator__cc_1a35713abd815a1ee4163a04a0f31f1c90" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1simulator__cc_1a5fdec873806c8554b279cf8e243ef8a8" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1radar_1_1tsfft__cc" kind="class"><name>gr::radar::tsfft_cc</name>
+    <member refid="classgr_1_1radar_1_1tsfft__cc_1afc568efd3a8a30051f36e9344518a15b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1radar_1_1tsfft__cc_1ab7200324d863f299494c375caca12a96" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1radar" kind="namespace"><name>gr::radar</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a087f3342c4b5ef356c6a607f77df0ea4" kind="define"><name>RADAR_API</name></member>
+  </compound>
+  <compound refid="decimator__cc_8h" kind="file"><name>decimator_cc.h</name>
+  </compound>
+  <compound refid="est__v__cw_8h" kind="file"><name>est_v_cw.h</name>
+  </compound>
+  <compound refid="os__cfar__c_8h" kind="file"><name>os_cfar_c.h</name>
+  </compound>
+  <compound refid="signal__generator__cw__c_8h" kind="file"><name>signal_generator_cw_c.h</name>
+  </compound>
+  <compound refid="simulator__cc_8h" kind="file"><name>simulator_cc.h</name>
+  </compound>
+  <compound refid="tsfft__cc_8h" kind="file"><name>tsfft_cc.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/stefan/git/radsens/gr-radar/include</name>
+  </compound>
+  <compound refid="dir_53f46d18077ce6af91c5b562062dcdc8" kind="dir"><name>/home/stefan/git/radsens/gr-radar/include/radar</name>
+  </compound>
+</doxygenindex>

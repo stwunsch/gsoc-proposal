@@ -1,0 +1,40 @@
+<block>
+  <name>Simulator cc</name>
+  <key>radar_simulator_cc</key>
+  <category>RADAR</category>
+  <import>import radar</import>
+  <make>radar.simulator_cc($rng, $vlc, $rcs, $samp_rate, $center_freq)</make>
+  <param>
+    <name>Range</name>
+    <key>rng</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>Velocity</name>
+    <key>vlc</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>RCS</name>
+    <key>rcs</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Center_freq</name>
+    <key>center_freq</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,15 @@
+<block>
+  <name>Tsfft cc</name>
+  <key>radar_tsfft_cc</key>
+  <category>RADAR</category>
+  <import>import radar</import>
+  <make>radar.tsfft_cc()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

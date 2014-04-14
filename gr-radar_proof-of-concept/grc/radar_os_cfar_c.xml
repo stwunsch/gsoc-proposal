@@ -1,0 +1,40 @@
+<block>
+  <name>Os cfar c</name>
+  <key>radar_os_cfar_c</key>
+  <category>RADAR</category>
+  <import>import radar</import>
+  <make>radar.os_cfar_c($samp_rate, $samp_compare, $samp_protect, $rel_threshold, $avg_mult)</make>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Samp_compare</name>
+    <key>samp_compare</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Samp_protect</name>
+    <key>samp_protect</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Rel_threshold</name>
+    <key>rel_threshold</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Avg_mult</name>
+    <key>avg_mult</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>cfar_out</name>
+    <type>message</type>
+  </source>
+</block>

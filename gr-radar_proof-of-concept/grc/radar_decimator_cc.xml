@@ -1,0 +1,20 @@
+<block>
+  <name>Decimator cc</name>
+  <key>radar_decimator_cc</key>
+  <category>RADAR</category>
+  <import>import radar</import>
+  <make>radar.decimator_cc($dec_factor)</make>
+  <param>
+    <name>Dec_factor</name>
+    <key>dec_factor</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
